@@ -1,0 +1,81 @@
+{
+  "feature_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "AvgMonthlySpend",
+    "TenureGroup"
+  ],
+  "categorical_cols": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "TenureGroup"
+  ],
+  "numeric_cols": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "AvgMonthlySpend"
+  ],
+  "best_params": {
+    "n_estimators": 431,
+    "max_depth": 9,
+    "learning_rate": 0.019378129162470663,
+    "subsample": 0.9577645103824357,
+    "colsample_bytree": 0.6976967226716989,
+    "min_child_weight": 9,
+    "reg_alpha": 9.718152601055172,
+    "reg_lambda": 0.7477038965936387,
+    "gamma": 1.7627122224912375
+  },
+  "test_roc_auc": 0.9511862176719706,
+  "test_f1": 0.8631743549648163,
+  "model_comparison": {
+    "Logistic Regression": {
+      "f1": 0.75,
+      "roc_auc": 0.865667530118005
+    },
+    "Random Forest": {
+      "f1": 0.8379254457050244,
+      "roc_auc": 0.9446311829283336
+    },
+    "XGBoost (default)": {
+      "f1": 0.8271908271908271,
+      "roc_auc": 0.941061222811562
+    },
+    "XGBoost (tuned)": {
+      "f1": 0.8631743549648163,
+      "roc_auc": 0.9511862176719706
+    }
+  }
+}
