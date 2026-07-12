@@ -151,5 +151,6 @@ Open `http://localhost:8501` in your browser.
 ---
 
 ## 👨‍💻 Author 
+Rutik kanzariya
 Built as part of a machine learning portfolio project demonstrating an end-to-end
 pipeline from raw data to a deployed, explainable ML application.
