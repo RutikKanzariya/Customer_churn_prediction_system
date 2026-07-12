@@ -129,6 +129,7 @@ if predict_btn:
             st.success(f"### ✅ {pred}")
         st.metric("Churn Probability", f"{proba:.1%}")
         st.progress(float(min(proba, 1.0)))
+        # 
 
     with r2:
         st.markdown("#### 🔍 Why this prediction? (SHAP)")
