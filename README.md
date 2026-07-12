@@ -5,8 +5,7 @@ tuned with **Optuna**, balanced with **SMOTE**, explained with **SHAP**, and dep
 as an interactive **Streamlit** web app.
 
 ### 🚀 Live Demo
-*(Deploy to Streamlit Cloud and add your link here)*
-
+https://customerchurnpredictionsystem-aiahzfpreqqpcnwdfsbeok.streamlit.app/
 ---
 
 ## 🎯 Project Overview
@@ -151,7 +150,6 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 👨‍💻 Author
-
+## 👨‍💻 Author 
 Built as part of a machine learning portfolio project demonstrating an end-to-end
 pipeline from raw data to a deployed, explainable ML application.
